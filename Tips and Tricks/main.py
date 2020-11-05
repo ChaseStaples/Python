@@ -45,9 +45,9 @@ def ListManipulations(arr):
 def Swap(x, y):
     print("Swapping 2 numbers/variables")
     print("--------------------------------")
-    print("Before Swap x = ", x, " Y = ", y)
+    print(f"Before Swap x = {x} Y = {y}")
     x, y = y, x
-    print("After Swap x = ", x, " Y = ", y)
+    print(f"After Swap x = {x} Y = {y}")
     print("--------------------------------\n")
 
 
@@ -113,9 +113,30 @@ def enumerates():
         print(index, name)
     print("---------------------------------------------\n")
 
+# Walking throught the zip function
+def Zipping():
+    names = ["Peter Parker", "Clark Kent", "Bruce Wayne", "Tony Stark"]
+    heros = ["Spiderman", "Superman", "Batman", "Ironman"]
+    universes = ["Marvel", "DC", "DC", "Marvel"]
+
+    print("Zipping 3 lists")
+    print("---------------------------------------------")
+    for name, hero, universe in zip(names, heros, universes):
+        print(f'{name} is actually {hero} from {universe}')
+    print("---------------------------------------------\n")
 
 
-
+# Ways to unpack different values
+def unpacking():
+    a, b, *_ = (1,2,3,4,5)
+    x, y, *z = (1,2,3,4,5)
+    i, *j, k = (1,2,3,4,5)
+    print("Unpacking Values")
+    print("---------------------------------------------")
+    print(a, b)
+    print(x, y, z)
+    print(i, j ,k)
+    print("---------------------------------------------\n")
 
 
 myList = [9, 4, 10, 26, 18, 43, 14]
@@ -131,3 +152,5 @@ TernaryConditionals(True)
 UnderScore()
 ContextManager('text.txt')
 enumerates()
+Zipping()
+unpacking()
