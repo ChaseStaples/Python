@@ -42,7 +42,7 @@ def ListManipulations(arr):
 
 
 # Swapping 2 numbers
-def swap(x, y):
+def Swap(x, y):
     print("Swapping 2 numbers/variables")
     print("--------------------------------")
     print("Before Swap x = ", x, " Y = ", y)
@@ -52,9 +52,9 @@ def swap(x, y):
 
 
 # Finding the largest and smallest numbers
-def MinMax(list):
-    largest = max(list)
-    smallest = min(list)
+def MinMax(lists):
+    largest = max(lists)
+    smallest = min(lists)
     print("Finding largest and smallest numbers in a list")
     print("--------------------------------")
     print("The largest number is: ", largest)
@@ -80,8 +80,8 @@ def TernaryConditionals(condition):
     print(x)
     print("---------------------------------------------\n")
 
-#Underscore placeholders
-def underScore():
+# Underscore placeholders
+def UnderScore():
     num1 = 10_000_000_000
     num2 = 100_000_000
     print("Underscore place holders")
@@ -90,8 +90,33 @@ def underScore():
     print(f"{num2:,}")
     print("---------------------------------------------\n")
 
-def contextManager(fileName):
-    
+
+# Notice a need for a context manager
+def ContextManager(fileName):
+    with open(fileName, 'r') as file:
+        fileContents = file.read()
+    words = fileContents.split(' ')
+    wordCount = len(words)
+    print("Context Manager for reading a file")
+    print("---------------------------------------------")
+    for word in fileContents:
+        print(word, end="")
+    print("\nThe word count of this file is: ", wordCount)
+    print("---------------------------------------------\n")
+
+# Enumerate for a list of names
+def enumerates():
+    names = ["Chase Staples", "Kyle Allen", "Smith Jr", "Carl Flint", "Steve Powers"]
+    print("Adding enumerate to list")
+    print("---------------------------------------------")
+    for index, name in enumerate(names):
+        print(index, name)
+    print("---------------------------------------------\n")
+
+
+
+
+
 
 myList = [9, 4, 10, 26, 18, 43, 14]
 list2 = [x for x in range(1, 20)]
@@ -99,8 +124,10 @@ list2 = [x for x in range(1, 20)]
 # Main
 print()
 ListManipulations(list2)
-swap(10, 20)
+Swap(10, 20)
 MinMax(myList)
 ListEvensOdds(20)
 TernaryConditionals(True)
-underScore()
+UnderScore()
+ContextManager('text.txt')
+enumerates()
