@@ -4,7 +4,7 @@
 
 # Imports
 from functools import reduce
-
+import sys
 
 # Simple Math Functions
 def square(x):
@@ -138,6 +138,29 @@ def unpacking():
     print(i, j ,k)
     print("---------------------------------------------\n")
 
+# Working with strings
+def StringManipulation(string):
+    print("Manipulating Strings")
+    print("---------------------------------------------")
+    pass
+
+# Save memory space with generators
+def SaveMemory():
+    print("Saving Memory using generators")
+    print("---------------------------------------------")
+    print("Not using Generator")
+    firstList = [i for i in range(10000)]
+    print(sum(firstList))
+    print(sys.getsizeof(firstList), "bytes")
+
+    # Using parentheses instead of square brackets
+    my_gen = (i for i in range(10000))
+    print("\nUsing Generator")
+    print(sum(my_gen))
+    print(sys.getsizeof(my_gen), "bytes")
+    print("---------------------------------------------\n")
+
+
 
 myList = [9, 4, 10, 26, 18, 43, 14]
 list2 = [x for x in range(1, 20)]
@@ -154,3 +177,5 @@ ContextManager('text.txt')
 enumerates()
 Zipping()
 unpacking()
+
+SaveMemory()
