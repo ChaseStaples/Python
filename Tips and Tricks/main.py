@@ -80,6 +80,7 @@ def TernaryConditionals(condition):
     print(x)
     print("---------------------------------------------\n")
 
+
 # Underscore placeholders
 def UnderScore():
     num1 = 10_000_000_000
@@ -140,9 +141,29 @@ def unpacking():
 
 # Working with strings
 def StringManipulation(string):
+
     print("Manipulating Strings")
     print("---------------------------------------------")
-    pass
+    print("---------------------------------------------\n")
+
+# Reversing alternate words in a string
+def alternateString(string):
+    words = string.split()
+    output = []
+    for wordNum in range(len(words)):
+        if(wordNum % 2 == 0):
+            output.append(words[wordNum])
+        else:
+            tempList = list(words[wordNum])
+            tempList.reverse()
+            newWord = "".join(tempList)
+            output.append(newWord)
+    print("Reversing alternating words in a String")
+    print("---------------------------------------------")
+    for i in range(len(output)):
+        print(output[i],"  ", end="")
+    print("\n---------------------------------------------\n")
+
 
 # Save memory space with generators
 def SaveMemory():
@@ -160,11 +181,28 @@ def SaveMemory():
     print(sys.getsizeof(my_gen), "bytes")
     print("---------------------------------------------\n")
 
+def sortingArray(lists):
+    newList = sorted(lists)
+    print("Sorting a list")
+    print("---------------------------------------------")
+    print("---------------------------------------------\n")
+
+def largestRange(array):
+    newList = sorted(array)
+    left = newList[0]
+    last = len(newList)
+    right = newList[last - 1]
+    print("Finding the largest range in an array/list")
+    print("---------------------------------------------")
+    print(f"Left: {left}, Right: {right}")
+    print("---------------------------------------------\n")
 
 
-myList = [9, 4, 10, 26, 18, 43, 14]
+
+myList = [9, 9, 12, 1, 18, 0, 4]
+myList2 = [2, 3 , 4, 1, 0, 5]
 list2 = [x for x in range(1, 20)]
-
+mySentence = "Hello my name is Chase nice to meet you"
 # Main
 print()
 ListManipulations(list2)
@@ -177,5 +215,7 @@ ContextManager('text.txt')
 enumerates()
 Zipping()
 unpacking()
-
+sortingArray(myList2)
 SaveMemory()
+largestRange(myList)
+alternateString(mySentence)
