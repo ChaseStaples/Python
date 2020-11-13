@@ -43,7 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Practice Unit Tesing" />
   </component>
   <component name="RunManager" selected="Python.Main">
     <configuration name="GUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -125,25 +125,29 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2748" y="175" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604544037527" />
-    <state x="3074" y="323" key="FileChooserDialogImpl" timestamp="1604530744682">
+    <state x="3074" y="323" key="FileChooserDialogImpl" timestamp="1604975689729">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="3074" y="323" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604530744682" />
-    <state width="1899" height="263" key="GridCell.Tab.0.bottom" timestamp="1604544122252">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="3074" y="323" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604975689729" />
+    <state width="617" height="522" key="GridCell.Tab.0.bottom" timestamp="1605043022085">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="617" height="522" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1605043022085" />
     <state width="1899" height="263" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604544122252" />
-    <state width="1899" height="263" key="GridCell.Tab.0.center" timestamp="1604544122251">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="617" height="522" key="GridCell.Tab.0.center" timestamp="1605043022085">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="617" height="522" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1605043022085" />
     <state width="1899" height="263" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604544122251" />
-    <state width="1899" height="263" key="GridCell.Tab.0.left" timestamp="1604544122251">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="617" height="522" key="GridCell.Tab.0.left" timestamp="1605043022085">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="617" height="522" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1605043022085" />
     <state width="1899" height="263" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604544122251" />
-    <state width="1899" height="263" key="GridCell.Tab.0.right" timestamp="1604544122252">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="617" height="522" key="GridCell.Tab.0.right" timestamp="1605043022085">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="617" height="522" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1605043022085" />
     <state width="1899" height="263" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604544122252" />
   </component>
 </project>
